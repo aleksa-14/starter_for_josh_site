@@ -20,7 +20,7 @@
 <div class="row">
 
 <div class="col-md-4">
-<img class="img-fluid" src="http://206.189.45.97/~mesh6/wp-content/themes/starter_for_josh_site/images/port1.jpg" alt="woman">
+<img class="img-fluid" alt=“portait” src="<?php the_field('port1');?>">
 <h4 class="article-title"><?php the_field('articletitle'); ?></h4>
 < <p class="date" ><?php the_field('articledate'); ?></p>
 <p class="article-p"><?php the_field('articleexcerpt'); ?> </p>
