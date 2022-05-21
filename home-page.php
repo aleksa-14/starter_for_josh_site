@@ -27,7 +27,7 @@
                   <p class="article-p"><?php the_field('articleexcerpt'); ?> </p>
                   <a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>
                     </div>
-                    
+
                     <div class="col-md-4 text-center">
                     <img class="img-fluid" alt=“portait” src="<?php the_field('articleimage');?>">
                   <h4 class="article-title"><?php the_field('articletitle'); ?></h4>
