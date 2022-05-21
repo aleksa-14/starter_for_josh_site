@@ -44,7 +44,7 @@
     
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="#"><span class="JOSH">JOSH</span> <span class="orange">WHITKIN</span></a>
+        <a class="navbar-brand" href="http://206.189.45.97/~mesh6/"><span class="JOSH">JOSH</span> <span class="orange">WHITKIN</span></a>
       
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -70,9 +70,8 @@ wp_nav_menu( array(
 ) );
 
 ?>
+</nav>
 
-
-      </nav>
 <div class="tag">
 <h1><?php the_field('maintagline'); ?></h1>
     </div>
